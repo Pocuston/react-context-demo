@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import ToDoList from "./ToDoList";
 
 function Content({ user }) {
   return (
     <div className="content">
-        Content
+      Content
       <ToDoList />
     </div>
   );

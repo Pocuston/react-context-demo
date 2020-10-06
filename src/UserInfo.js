@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
-function UserInfo({user}) {
-  return (
-    <div className="userInfo">
-        Current user: {user}
-    </div>
-  );
+function UserInfo({ user }) {
+  return <div className="user-info">UserInfo: {user}</div>;
 }
 
 export default UserInfo;

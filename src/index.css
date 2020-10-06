@@ -1,3 +1,5 @@
+/* color palette: https://coolors.co/587291-2f97c1-1ccad8-15e6cd-0cf574 */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +13,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas:
+  "header header"
+  "menu content"
+}
+
+.header {
+  grid-area: header;
+  background-color: #587291;
+}
+
+.menu {
+  grid-area: menu;
+  background-color: #2F97C1;
+}
+
+.content {
+  grid-area: content;
+}
+
+

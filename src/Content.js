@@ -5,7 +5,7 @@ function Content({ user }) {
   return (
     <div className="content">
       Content
-      <ToDoList />
+      <ToDoList user={user} />
     </div>
   );
 }

@@ -39,6 +39,10 @@ body {
   border: 2px dashed red;
 }
 
+.menu a {
+  color: white;
+}
+
 .content {
   grid-area: content;
   border: 2px dashed red;
@@ -46,10 +50,22 @@ body {
 
 .user-info {
   background-color: #1ccad8;
-  flex: 0 0 250px;
+  flex: 0 0 auto;
   margin: 16px;
   padding: 16px;
   border: 2px dashed red;
+}
+
+.to-do-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.to-do-item {
+  background-color: #587291;
+  width: 100px;
+  margin: 16px;
+  padding: 8px;
 }
 
 

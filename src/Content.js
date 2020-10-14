@@ -1,10 +1,10 @@
 import React from "react";
 import ToDoList from "./ToDoList";
 
-function Content({ user }) {
+function Content() {
   return (
     <div className="content">
-      <ToDoList user={user} />
+      <ToDoList />
     </div>
   );
 }

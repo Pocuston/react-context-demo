@@ -13,12 +13,12 @@ function getToDoItems() {
   return items;
 }
 
-function ToDoList({ user }) {
+function ToDoList() {
   const toDoItems = getToDoItems();
   return (
     <div className="to-do-list">
       {toDoItems.map((item) => (
-        <ToDoItem key={item.id} item={item} user={user} />
+        <ToDoItem key={item.id} item={item} />
       ))}
     </div>
   );

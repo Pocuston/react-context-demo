@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
+import UserContext from "./UserContext";
 
-function Menu({ user }) {
+function Menu() {
+  const user = useContext(UserContext);
   return (
     <div className="menu">
       <ul>

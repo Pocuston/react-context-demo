@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
+import UserContext from "./UserContext";
 
-function ToDoItem({ item, user }) {
+function ToDoItem({ item }) {
+  const user = useContext(UserContext);
   return (
     <div className="to-do-item">
       <div className="to-do-item-title">{item.name}</div>

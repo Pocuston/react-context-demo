@@ -3,10 +3,10 @@ import ToDoItem from "./ToDoItem";
 
 function getToDoItems() {
   const items = [];
-  for (let i = 0; i < 24; i++) {
+  for (let i = 0; i < 64; i++) {
     items.push({
       id: i,
-      name: `Item #${i + 4}`,
+      name: `Item #${i}`,
       author: Math.floor(Math.random() * 4),
     });
   }

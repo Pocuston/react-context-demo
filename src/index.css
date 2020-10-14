@@ -13,7 +13,7 @@ body {
   height: 100vh;
   color: white;
   display: grid;
-  grid-template-columns: 400px auto;
+  grid-template-columns: 200px auto;
   grid-template-rows: 100px auto;
   grid-template-areas:
   "header header"
@@ -25,7 +25,7 @@ body {
   background-color: #587291;
   display: flex;
   align-items: center;
-  border: 2px dashed red;
+  /*border: 2px dashed red;*/
 }
 
 .title {
@@ -36,7 +36,7 @@ body {
 .menu {
   grid-area: menu;
   background-color: #2F97C1;
-  border: 2px dashed red;
+  /*border: 2px dashed red;*/
 }
 
 .menu a {
@@ -45,7 +45,7 @@ body {
 
 .content {
   grid-area: content;
-  border: 2px dashed red;
+  /*border: 2px dashed red;*/
 }
 
 .user-info {
@@ -53,19 +53,28 @@ body {
   flex: 0 0 auto;
   margin: 16px;
   padding: 16px;
-  border: 2px dashed red;
+  /*border: 2px dashed red;*/
 }
 
 .to-do-list {
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
 }
 
 .to-do-item {
   background-color: #587291;
-  width: 100px;
-  margin: 16px;
+  /*width: 100px;*/
+  margin: 8px;
   padding: 8px;
+  display: flex;
+}
+
+.to-do-item-controls {
+  flex: 0 0 auto;
+}
+
+.to-do-item-title {
+  flex: 1;
 }
 
 
